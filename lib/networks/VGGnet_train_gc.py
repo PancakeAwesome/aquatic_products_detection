@@ -102,7 +102,7 @@ class VGGnet_train(Network):
         #========= RoI Proposal ============
         #先reshape后softmax激活
         (self.feed('rpn_cls_score')
-             .reshape_layer(2, name = 'rpn_cls_score_reshape')# 形状个shape(1, 9n, n, 2)
+             .reshape_layer(2, name = 'rpn_cls_score_reshape')# 形状shape(1, 9n, n, 2)
              .softmax(name = 'rpn_cls_prob')
              #形状shape(1,9n,n,2)
             )

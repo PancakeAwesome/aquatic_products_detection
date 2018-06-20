@@ -1,5 +1,5 @@
-# object-detection-faster-RCNN
-This is a object detection module in a firefighting project.We use faster RCNN model to detect the passerby around the fire scene so that we can accuqire traffic situation around fire scene.Specificly, we firstly receive videos from camera and then extract a series of frames from it.Then we can detect these frames by faster RCNN model.The origin paper can be found [here](https://arxiv.org/abs/1506.01497). For more detail about the paper and code, see this [blog][1]
+# aquatic_products_detection
+This is a object detection module in a environment protection project.We use faster RCNN model to detect the aquatic products under the water so that we can accuqire water qualitiy.Specificly, we firstly receive videos from camera in water and then extract a series of frames from it.Then we can detect these frames by faster RCNN model.The origin paper can be found [here](https://arxiv.org/abs/1506.01497). For more detail about the paper and code, see this [blog][1]
 
 [1]:http://pancakeawesome.ink/%E5%BC%84%E6%87%82%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B(Faster-R-CNN)?%E7%9C%8B%E8%BF%99%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86!.html
 ***
